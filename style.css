@@ -1,12 +1,10 @@
-* {
-    font-size: 0;
-}
 .pinggir-papan{
     border-color: black;
     border-style: solid;
     border-width: 1px;
     max-width: fit-content;
     max-height: fit-content;
+    font-size: 0;
 }
 
 .baris {
