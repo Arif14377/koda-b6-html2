@@ -1,0 +1,39 @@
+* {
+    font-size: 0;
+}
+.pinggir-papan{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.baris {
+    display: inline-block;
+}
+
+*p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.baris:nth-child(even)>.kolom:nth-child(odd) {
+    padding: 20px;
+    background-color: black;
+}
+
+.baris:nth-child(even)>.kolom:nth-child(even) {
+    padding: 20px;
+    background-color: white;
+}
+
+.baris:nth-child(odd)>.kolom:nth-child(even) {
+    padding: 20px;
+    background-color: black;
+}
+
+.baris:nth-child(odd)>.kolom:nth-child(odd) {
+    padding: 20px;
+    background-color: white;
+}
